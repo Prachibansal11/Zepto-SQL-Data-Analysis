@@ -1,10 +1,6 @@
 # E-Commerce-SQL-Data-Analysis
 ![Banner](https://raw.githubusercontent.com/Prachibansal11/Zepto-SQL-Data-Analysis/a1de34c22ade16aaf7ea1d304ed9422990a2ff24/zepto-banner.jpg)
 
-## Objective:
-This is a complete, real-world data analyst portfolio project based on an e-commerce inventory dataset scraped from Zepto — one of India’s fastest-growing quick-commerce startups. This project simulates real analyst workflows, from raw data exploration to business-focused data analysis.
-# Zepto E-commerce Inventory Analysis
-
 📌 **Project Overview**  
 The goal is to simulate how actual data analysts in the e-commerce or retail industries work behind the scenes to use SQL to:
 
@@ -55,3 +51,41 @@ CREATE TABLE zepto (
   outOfStock BOOLEAN,
   quantity INTEGER
 );
+
+### 2. 📥 Data Import  
+- Loaded CSV using **pgAdmin's import feature**.  
+
+### 3. 🔍 Data Exploration  
+- Counted the **total number of records** in the dataset  
+- Viewed a **sample of the dataset** to understand structure and content  
+- Checked for **null values** across all columns  
+- Identified **distinct product categories** available in the dataset  
+- Compared **in-stock vs out-of-stock** product counts  
+- Detected **duplicate products** present multiple times, representing different SKUs (e.g., package size or weight variations)
+
+---
+
+### 4. 🧹 Data Cleaning  
+- Identified and removed rows where **MRP** or **discounted selling price** was **zero**  
+- Converted `mrp` and `discountedSellingPrice` from **paise to rupees** for consistency and readability  
+  (e.g., 5000 paise → ₹50.00)
+
+---
+
+### 5. 📊 Business Insights  
+- 🏷️ Found **Top 10 best-value products** based on highest discount percentage  
+- 🚫 Identified **high-MRP products** that are currently **out of stock**  
+- 💰 Estimated **potential revenue** for each product category using:  
+  `discountedSellingPrice × availableQuantity`  
+- 🧃 Filtered **expensive products (MRP > ₹500)** with minimal discount  
+- 🏆 Ranked **Top 5 product categories** offering the **highest average discounts**  
+- ⚖️ Calculated **price per gram** to identify **value-for-money products**  
+- 📦 Grouped products based on **weight** into:  
+  - Low (0–250g)  
+  - Medium (251g–750g)  
+  - Bulk (750g and above)  
+- 🏋️ Measured **total inventory weight per product category** to understand stock volume distribution
+
+---
+
+

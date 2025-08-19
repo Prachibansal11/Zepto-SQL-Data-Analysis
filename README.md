@@ -34,12 +34,13 @@ Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate p
 ---
 
 🔧 **Project Workflow**
-### 1. Database & Table Creation  
+### 1.Database & Table Creation  
 We start by creating a SQL table with appropriate data types.
+---
 
 ### 2.Data Import
 - Loaded CSV using **pgAdmin's import feature**.  
-
+---
 
 ### 3. 🔍 Data Exploration  
 - Counted the **total number of records** in the dataset  

@@ -77,7 +77,6 @@ Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate p
 - 🏋️ Measured **total inventory weight per product category** to understand stock volume distribution
 
 ---
----
 
 ### ✅ Conclusion
 
@@ -91,4 +90,6 @@ This project demonstrates a real-world simulation of how data analysts work with
 - Understanding pricing inefficiencies through metrics like price per gram.
 
 This end-to-end analysis not only showcases technical SQL skills but also highlights the ability to interpret data for meaningful business impact — a critical skill for any data analyst in the retail or e-commerce industry.
+
+---
 

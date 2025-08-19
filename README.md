@@ -36,8 +36,6 @@ Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate p
 🔧 **Project Workflow**
 ### 1. Database & Table Creation  
 We start by creating a SQL table with appropriate data types:
-
-```sql
 CREATE TABLE zepto (
   sku_id SERIAL PRIMARY KEY,
   category VARCHAR(120),
@@ -50,7 +48,7 @@ CREATE TABLE zepto (
   outOfStock BOOLEAN,
   quantity INTEGER
 );
-----
+
 
 ### 2.
 - Loaded CSV using **pgAdmin's import feature**.  

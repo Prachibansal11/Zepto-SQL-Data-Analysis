@@ -1,6 +1,7 @@
 # E-Commerce-SQL-Data-Analysis
 ![Banner](https://raw.githubusercontent.com/Prachibansal11/Zepto-SQL-Data-Analysis/a1de34c22ade16aaf7ea1d304ed9422990a2ff24/zepto-banner.jpg)
 
+---
 📌 **Project Overview**  
 The goal is to simulate how actual data analysts in the e-commerce or retail industries work behind the scenes to use SQL to:
 

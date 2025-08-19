@@ -51,9 +51,10 @@ CREATE TABLE zepto (
   outOfStock BOOLEAN,
   quantity INTEGER
 );
-
-### 2. 📥 Data Import  
+----
+### 2.
 - Loaded CSV using **pgAdmin's import feature**.  
+
 
 ### 3. 🔍 Data Exploration  
 - Counted the **total number of records** in the dataset  
@@ -85,7 +86,3 @@ CREATE TABLE zepto (
   - Medium (251g–750g)  
   - Bulk (750g and above)  
 - 🏋️ Measured **total inventory weight per product category** to understand stock volume distribution
-
----
-
-

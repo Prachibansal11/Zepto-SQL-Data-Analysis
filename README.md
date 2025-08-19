@@ -34,9 +34,9 @@ Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate p
 
 ---
 
-🔧 **Project Workflow**
+ ## 🔧Project Workflow
 
----
+
 ### 1.Database & Table Creation  
 - We start by creating a SQL table with appropriate data types.
 ---

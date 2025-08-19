@@ -75,3 +75,20 @@ Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate p
   - Medium (251g–750g)  
   - Bulk (750g and above)  
 - 🏋️ Measured **total inventory weight per product category** to understand stock volume distribution
+
+---
+---
+
+### ✅ Conclusion
+
+This project demonstrates a real-world simulation of how data analysts work with messy e-commerce inventory data. By using SQL for data exploration, cleaning, and analysis, we uncovered valuable business insights that would help a company like Zepto make informed decisions regarding pricing strategies, inventory optimization, and stock management.
+
+**Key takeaways include:**
+
+- Identifying products with high discount potential and strong customer value.  
+- Detecting out-of-stock issues in high-revenue items.  
+- Analyzing inventory weight distribution across categories for logistics planning.  
+- Understanding pricing inefficiencies through metrics like price per gram.
+
+This end-to-end analysis not only showcases technical SQL skills but also highlights the ability to interpret data for meaningful business impact — a critical skill for any data analyst in the retail or e-commerce industry.
+
